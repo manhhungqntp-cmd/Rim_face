@@ -24,6 +24,17 @@ setup_type = st.radio(
     ),
 )
 
+# === CHÈN HÌNH CẢNH SƠ ĐỒ VÀO ĐÂY ===
+try:
+  st.image(
+      "so_do.png",
+      caption="Sơ đồ mô tả gá đặt đồng hồ so (Rim & Face)",
+      use_container_width=True,
+  )
+except Exception:
+  st.info("💡 (Thêm file so_do.png vào GitHub để hiển thị sơ đồ minh họa)")
+# ===================================
+
 # --- 1. Thông số hình học ---
 st.subheader("1. Thông số hình học (mm)")
 col1, col2, col3 = st.columns(3)
