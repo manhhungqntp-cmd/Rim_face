@@ -27,7 +27,7 @@ setup_type = st.radio(
 # === CHÈN HÌNH CẢNH SƠ ĐỒ VÀO ĐÂY ===
 try:
   st.image(
-      "so_do.png",
+      "So_do.png",
       caption="Sơ đồ mô tả gá đặt đồng hồ so (Rim & Face)",
       use_container_width=True,
   )
